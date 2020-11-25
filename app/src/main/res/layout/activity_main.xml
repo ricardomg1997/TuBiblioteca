@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="369dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/nav_inferior"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="294dp"
+        android:text="@string/info"
+        android:textSize="20dp" />
+
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:layout_above="@+id/nav_inferior"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_marginTop="352dp"
+        android:layout_marginBottom="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/nav_inferior"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/nav_homePage"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_nav_inf"
+            android:src="@drawable/ic_baseline_home_24"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_createPage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_toRightOf="@+id/nav_homePage"
+            android:background="@drawable/button_nav_inf"
+            android:src="@drawable/ic_book"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_listPage"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@+id/nav_createPage"
+            android:background="@drawable/button_nav_inf"
+            android:src="@drawable/ic_list_books"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_userPage"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/nav_listPage"
+            android:background="@drawable/button_nav_inf"
+            android:src="@drawable/ic_usuario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/nav_homePage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/homeMenu"
+            android:textAlignment="center"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/nav_createPage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="-1dp"
+            android:text="@string/createTitle"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/nav_listPage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/listTitle"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/nav_userPage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/nav_listPage"
+            android:text="@string/userTitle"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

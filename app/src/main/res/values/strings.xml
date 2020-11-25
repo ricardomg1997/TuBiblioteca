@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Tu Biblioteca</string>
+    <string name="titleHome">Inicio</string>
+    <string name="titleCreate">Crear prestamo</string>
+    <string name="titleList">Libros prestados</string>
+    <string name="titlePerson">Usuario</string>
+    <string name="user">Usuario</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="btnRegister">Registrarse</string>
+    <string name="welcome">Bienvenido a Tu Biblioteca</string>
+    <string name="info">Con esta aplicación podrás mejorar tu experiencia al momento de solicitar el prestamo de un libro, al igual que podrás observar el estado de los libros por si estás interesado en uno. Esperamos que esta nueva iniciativa sea de tu agrado.</string>
+    <string name="createLoan">Solicitar un prestamo</string>
+    <string name="formName">Nombres</string>
+    <string name="formId">Identificación</string>
+    <string name="formPhone">Celular</string>
+    <string name="formBook">Libro</string>
+    <string name="formDate">Fecha de prestamo</string>
+    <string name="btnCreate">Guardar</string>
+    <string name="homeMenu">Inicio</string>
+    <string name="createTitle">Crear prestamo</string>
+    <string name="listTitle">Prestamos</string>
+    <string name="userTitle">Usuario</string>
+    <string name="libros_prestados">Libros Prestados</string>
+    <string name="usuario">Usuario</string>
+    <string name="create_loan">Crear prestamo</string>
+    <string name="home">Inicio</string>
+    <string name="Register">Registro</string>
+    <string name="btnCreateUser">Registrar</string>
+    <string name="btnCancel">Cancelar</string>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="btnSalir">Salir</string>
+</resources>
